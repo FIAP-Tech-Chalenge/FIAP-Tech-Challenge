@@ -1,9 +1,3 @@
-[submodule "Lambda"]
-	path = Lambda
-	url = git@github.com:wolwerr/FIAP-Lambda.git
-    branch = main
-
-[submodule "K8S"]
-	path = K8S
-	url = git@github.com:wolwerr/FIAP-K8S-Terraform.git
-    branch = main
+[submodule "tech-challenge"]
+	path = tech-challenge
+	url = git@github.com:FIAP-Tech-Chalenge/tech-challenge.git
