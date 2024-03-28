@@ -1,3 +1,6 @@
 [submodule "tech-challenge"]
 	path = tech-challenge
 	url = git@github.com:FIAP-Tech-Chalenge/tech-challenge.git
+[submodule "FIAP-K8S-Terraform"]
+	path = FIAP-K8S-Terraform
+	url = git@github.com:FIAP-Tech-Chalenge/FIAP-K8S-Terraform.git
