@@ -4,3 +4,12 @@
 [submodule "FIAP-K8S-Terraform"]
 	path = FIAP-K8S-Terraform
 	url = git@github.com:FIAP-Tech-Chalenge/FIAP-K8S-Terraform.git
+[submodule "tech-challenge-db"]
+	path = tech-challenge-db
+	url = git@github.com:FIAP-Tech-Chalenge/tech-challenge-db.git
+[submodule "tech-challenge-k8s"]
+	path = tech-challenge-k8s
+	url = git@github.com:FIAP-Tech-Chalenge/tech-challenge-k8s.git
+[submodule "tech-challenge-lambda"]
+	path = tech-challenge-lambda
+	url = git@github.com:FIAP-Tech-Chalenge/tech-challenge-lambda.git
