@@ -13,3 +13,12 @@
 [submodule "tech-challenge-lambda"]
 	path = tech-challenge-lambda
 	url = https://github.com/FIAP-Tech-Chalenge/tech-challenge-lambda
+[submodule "ms-pedido-api"]
+	path = ms-pedido-api
+	url = https://github.com/FIAP-Tech-Chalenge/ms-pedido-api
+[submodule "ms-admin-api"]
+	path = ms-admin-api
+	url = https://github.com/FIAP-Tech-Chalenge/ms-admin-api
+[submodule "ms-cliente-api"]
+	path = ms-cliente-api
+	url = https://github.com/FIAP-Tech-Chalenge/ms-cliente-api
