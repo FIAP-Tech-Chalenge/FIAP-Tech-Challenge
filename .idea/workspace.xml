@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="Ajuste de nomes">
-      <change afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/queue/kafka/consumers/PedidoPagoConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-admin-api/src/test/java/com/fiap/msadminapi/kafkaLocalTest/KafkaJsonPedidoPagoProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="docker composer e ajustes">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-admin-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-admin-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/MsAdminApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/MsAdminApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/KafkaTopicsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/KafkaTopicsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/consumers/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/consumers/KafkaConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/consumers/KafkaConsumerResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/consumers/KafkaConsumerResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/resources/application-hom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/resources/application-hom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cliente-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cliente-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedido-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pedido-api" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +52,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/lucas/Documents/Especializacao/FIAP-Tech-Challenge/ms-admin-api",
@@ -68,6 +63,12 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "settings.space",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "mongo"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -107,7 +108,7 @@
       <updated>1711588945150</updated>
       <workItem from="1711588947011" duration="460000" />
       <workItem from="1711589631265" duration="381000" />
-      <workItem from="1720115068009" duration="1968000" />
+      <workItem from="1720115068009" duration="5018000" />
     </task>
     <task id="LOCAL-00001" summary="K8S modueles">
       <option name="closed" value="true" />
@@ -157,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720056738792</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="docker composer e ajustes">
+      <option name="closed" value="true" />
+      <created>1720117212908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720117212908</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +190,7 @@
     <MESSAGE value="docker compose" />
     <MESSAGE value="MS totem" />
     <MESSAGE value="Ajuste de nomes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste de nomes" />
+    <MESSAGE value="docker composer e ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker composer e ajustes" />
   </component>
 </project>
