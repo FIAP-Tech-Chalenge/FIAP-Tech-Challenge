@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="docker composer e ajustes">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="Ajustes de workspace e conections">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-admin-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-admin-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cliente-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cliente-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-pedido-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pedido-api" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <updated>1711588945150</updated>
       <workItem from="1711588947011" duration="460000" />
       <workItem from="1711589631265" duration="381000" />
-      <workItem from="1720115068009" duration="5018000" />
+      <workItem from="1720115068009" duration="6325000" />
     </task>
     <task id="LOCAL-00001" summary="K8S modueles">
       <option name="closed" value="true" />
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720117212908</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ajustes de workspace e conections">
+      <option name="closed" value="true" />
+      <created>1720121855093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720121855093</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="MS totem" />
     <MESSAGE value="Ajuste de nomes" />
     <MESSAGE value="docker composer e ajustes" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker composer e ajustes" />
+    <MESSAGE value="Ajustes de workspace e conections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes de workspace e conections" />
   </component>
 </project>
