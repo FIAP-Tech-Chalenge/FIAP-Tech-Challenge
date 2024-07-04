@@ -3,6 +3,10 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FIAP-K8S-Terraform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-admin-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-cliente-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-pedido-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms-totem" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tech-challenge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tech-challenge-db" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tech-challenge-k8s" vcs="Git" />

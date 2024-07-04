@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="MS totem">
+    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="Ajuste de nomes">
+      <change afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/queue/kafka/consumers/PedidoPagoConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-admin-api/src/test/java/com/fiap/msadminapi/kafkaLocalTest/KafkaJsonPedidoPagoProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-admin-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-admin-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/MsAdminApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/MsAdminApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/KafkaTopicsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/KafkaTopicsEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/consumers/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/consumers/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/consumers/KafkaConsumerResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/java/com/fiap/msadminapi/infra/dependecy/kafka/resolver/consumers/KafkaConsumerResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-admin-api/src/main/resources/application-hom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/src/main/resources/application-hom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cliente-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cliente-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +65,35 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "settings.space",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.zookeeper: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="zookeeper" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yaml.zookeeper: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -72,6 +107,7 @@
       <updated>1711588945150</updated>
       <workItem from="1711588947011" duration="460000" />
       <workItem from="1711589631265" duration="381000" />
+      <workItem from="1720115068009" duration="1968000" />
     </task>
     <task id="LOCAL-00001" summary="K8S modueles">
       <option name="closed" value="true" />
@@ -113,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720056235596</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajuste de nomes">
+      <option name="closed" value="true" />
+      <created>1720056738792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720056738792</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +180,7 @@
     <MESSAGE value="docker compose e meta dados" />
     <MESSAGE value="docker compose" />
     <MESSAGE value="MS totem" />
-    <option name="LAST_COMMIT_MESSAGE" value="MS totem" />
+    <MESSAGE value="Ajuste de nomes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste de nomes" />
   </component>
 </project>

@@ -116,6 +116,7 @@ services:
       - postgres_cliente_data:/var/lib/postgresql/data
   ## Mensageria
   kafka:
+    container_name: kafka_fiap
     image: confluentinc/cp-kafka:latest
     ports:
       - "9092:9092"
@@ -129,6 +130,7 @@ services:
     depends_on:
       - zookeeper
   zookeeper:
+    container_name: zookeeper_fiap
     image: confluentinc/cp-zookeeper:latest
     ports:
       - "2181:2181"
