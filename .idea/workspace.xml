@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="docker compose">
-      <change afterPath="$PROJECT_DIR$/docker-file.yaml" afterDir="false" />
+    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="MS totem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-admin-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cliente-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api" afterDir="false" />
@@ -98,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720055820227</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docker compose">
+      <option name="closed" value="true" />
+      <created>1720055887011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720055887011</updated>
+    </task>
+    <task id="LOCAL-00005" summary="MS totem">
+      <option name="closed" value="true" />
+      <created>1720056235596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720056235596</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +135,7 @@
     <MESSAGE value="K8S modueles" />
     <MESSAGE value="docker compose e meta dados" />
     <MESSAGE value="docker compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker compose" />
+    <MESSAGE value="MS totem" />
+    <option name="LAST_COMMIT_MESSAGE" value="MS totem" />
   </component>
 </project>
