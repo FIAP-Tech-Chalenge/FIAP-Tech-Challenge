@@ -22,3 +22,6 @@
 [submodule "ms-cliente-api"]
 	path = ms-cliente-api
 	url = https://github.com/FIAP-Tech-Chalenge/ms-cliente-api
+[submodule "ms-totem"]
+	path = ms-totem
+	url = https://github.com/FIAP-Tech-Chalenge/ms-totem.git
