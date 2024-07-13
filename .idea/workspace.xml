@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="Ajustes de workspace e conections">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="47957c46-5635-4471-9f3f-4c48a73f201c" name="Changes" comment="git ignore e tags">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/kafka.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/micro-services.drawio.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-admin-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-admin-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-admin-api/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cliente-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cliente-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cliente-api/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pedido-api" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pedido-api" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/lucas/Documents/Especializacao/FIAP-Tech-Challenge/ms-admin-api",
+    "last_opened_file_path": "/home/lucas/Documents/Especializacao/FIAP-Tech-Challenge/imagens",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,9 +73,16 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imagens" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yaml.zookeeper: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -107,7 +117,13 @@
       <updated>1711588945150</updated>
       <workItem from="1711588947011" duration="460000" />
       <workItem from="1711589631265" duration="381000" />
-      <workItem from="1720115068009" duration="6325000" />
+      <workItem from="1720115068009" duration="7109000" />
+      <workItem from="1720136889158" duration="3532000" />
+      <workItem from="1720187386770" duration="4188000" />
+      <workItem from="1720834353245" duration="313000" />
+      <workItem from="1720834918702" duration="33000" />
+      <workItem from="1720905779829" duration="603000" />
+      <workItem from="1720908527935" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="K8S modueles">
       <option name="closed" value="true" />
@@ -173,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720121855093</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="git ignore e tags">
+      <option name="closed" value="true" />
+      <created>1720123195019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720123195019</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +223,7 @@
     <MESSAGE value="Ajuste de nomes" />
     <MESSAGE value="docker composer e ajustes" />
     <MESSAGE value="Ajustes de workspace e conections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes de workspace e conections" />
+    <MESSAGE value="git ignore e tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore e tags" />
   </component>
 </project>
